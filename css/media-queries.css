@@ -1,0 +1,218 @@
+
+/* ==================================================================================================== 
+    Large Devices, Wide Screens
+  ===================================================================================================== */
+@media only screen and (max-width : 1200px) {
+
+}
+
+
+
+
+/* ==================================================================================================== 
+    Medium Devices, Desktops
+  ===================================================================================================== */
+@media only screen and (max-width : 992px) {
+
+}
+
+
+
+/* ==================================================================================================== 
+    Small Devices, Tablets
+  ===================================================================================================== */
+@media only screen and (max-width : 768px) {
+
+    /*-------------------------------------------Home--------------------------------------*/
+    .background-image-home{
+        z-index: 50;
+        text-align:center; 
+        padding: 94% 0% 0% 0% ; 
+        position:relative;
+        color:white;
+        font-weight: lighter;
+        font-size: 10%;
+    }
+
+   
+
+}
+
+
+
+/* ==================================================================================================== 
+    Extra Small Devices, Phones 
+  ===================================================================================================== */
+@media only screen and (max-width : 480px) {
+
+    .col-xs-1 {width: 8.33%;}
+    .col-xs-2 {width: 16.66%;}
+    .col-xs-3 {width: 25%;}
+    .col-xs-4 {width: 33.33%;}
+    .col-xs-5 {width: 41.66%;}
+    .col-xs-6 {width: 50%;} 
+    .col-xs-7 {width: 58.33%;}
+    .col-xs-8 {width: 66.66%;}
+    .col-xs-9 {width: 75%;}
+    .col-xs-10 {width: 83.33%;}
+    .col-xs-11 {width: 91.66%;}
+    .col-xs-12 {width: 100%;}
+
+    /*-------------------------------------------Home--------------------------------------*/
+    .background-image-home{
+        display: block;
+        /*position: absolute;*/
+        background-color: #D3D3D3;
+        background-image: url('../images/myImageHome5.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height:  50vh;
+        z-index: 50;
+        text-align:center; 
+        padding: 22% 0% 0% 0% ; 
+        position:relative;
+        color:white;
+        font-weight: lighter;
+        font-size: 10%;
+    }
+
+    .background-image-home h1 {
+        font-weight: lighter;
+    } 
+
+    .background-image-home h4 {
+        font-size: 16px;
+        margin-top: 10px;
+    } 
+
+
+    #homeLinks{
+        display:none;
+    }
+
+    /*-------------------------------------------Menu--------------------------------------*/
+    .background-image-profile {
+        display: block;
+        background-color: #D3D3D3;
+        background-image: url('../images/profile.jpg') ;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 12.5vh;
+        z-index: 0;
+        -webkit-transition: -webkit-transform 0.4s ease;
+        -moz-transition: -moz-transform 0.4s ease;
+        -o-transition: -o-transform 0.4s ease;
+        transition: transform 0.4s ease;
+    }
+
+    .background-image-resume {
+        display: block;
+        background-color: #D3D3D3;
+        background-image: url('../images/resume.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 12.5vh;
+        z-index: 0;
+        -webkit-transition: -webkit-transform 0.4s ease;
+        -moz-transition: -moz-transform 0.4s ease;
+        -o-transition: -o-transform 0.4s ease;
+        transition: transform 0.4s ease;
+    }
+
+    .background-image-portfolio {
+        display: block;
+        background-color: #D3D3D3;
+        background-image: url('../images/portfolio.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 12.5vh;
+        z-index: 0;
+        -webkit-transition: -webkit-transform 0.4s ease;
+        -moz-transition: -moz-transform 0.4s ease;
+        -o-transition: -o-transform 0.4s ease;
+        transition: transform 0.4s ease;
+    }
+    
+    .background-image-contact {
+        display: block;
+        background-color: #D3D3D3;
+        background-image: url('../images/contact.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 12.5vh;
+        z-index: 0;
+        -webkit-transition: -webkit-transform 0.4s ease;
+        -moz-transition: -moz-transform 0.4s ease;
+        -o-transition: -o-transform 0.4s ease;
+        transition: transform 0.4s ease;
+    }
+
+    .menu-icon{
+        display:none;
+    }
+
+    .menu-text{
+        text-align: center;
+        width: 100% !important;
+    }
+
+
+    /*----------------------------------------Profile Page-------------------------------------------------*/
+
+    
+    #profile-description{
+        color: #343333 !important;
+        text-align: justify;
+        margin-top: 10%;
+        padding: 0% 10% 0% 10%;
+    }
+
+
+    /*----------------------------------------Resume Page-------------------------------------------------*/
+    .edu_emp_img{
+        display: none;
+    }
+
+
+    .title_box_education{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .edu-des{
+        margin: -5% 5% 0% 5%;
+    }
+
+    .title_box_experience{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .exp-roles ul{
+       margin: -5% 5% 0% 5%;
+    }
+
+    .skill{
+        margin-top:17%;
+    }
+
+
+    /*----------------------------------------Portfolio Page-------------------------------------------------*/
+    .projects_popup{
+        width: 90%;
+        height: 70%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+
+    /*----------------------------------------Contact Page-------------------------------------------------*/
+    .contact{
+        margin-top:10%;
+    }
+}
