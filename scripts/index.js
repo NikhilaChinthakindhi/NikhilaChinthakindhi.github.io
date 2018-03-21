@@ -116,6 +116,28 @@ $('.cancel-btn').on('click', function () {
     
 });
 
+/*---------------------------- Redirecting to home on back button click ----------------------------- */
+$(window).on("navigate", function (event, data) {
+    var direction = data.state.direction;
+    if (direction == 'back') {
+        $(".home").show("slide", { direction: "left" }, 700);
+        $(".menu").show("slide", { direction: "right" }, 700); -
+        $('.profile-page, .resume-page, .portfolio-page, .contact-page').hide();
+    }
+    if (direction == 'forward') {
+        $(".home").show("slide", { direction: "left" }, 700);
+        $(".menu").show("slide", { direction: "right" }, 700); -
+        $('.profile-page, .resume-page, .portfolio-page, .contact-page').hide();
+    }
+});
+
+//window.onpopstate = function() {
+//    $(".home").show("slide", { direction: "left" }, 700);
+//    $(".menu").show("slide", { direction: "right" }, 700); -
+//    $('.profile-page, .resume-page, .portfolio-page, .contact-page').hide();
+//    //$('.website-home-page').delay(400).fadeIn(300);
+//}; 
+
 
 /*----------------------------Resume page skills circular percentage bar easy pie chart ----------------------------- */
 $(function() {
