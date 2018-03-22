@@ -169,9 +169,8 @@
     }
     
     #profile-content{
-        background-color: #f5f5f5;
         overflow-y: visible;
-        height: 75vh;
+        height: 100%;
     }
 
 
@@ -191,9 +190,8 @@
     }
 
     #resume-content{
-        background-color: #f5f5f5;
         overflow-y: visible;
-        height: 75vh;
+        height: 100%;
     }
 
     .edu_emp_img{
@@ -233,9 +231,8 @@
     }
 
     #portfolio-content{
-        background-color: #f5f5f5;
         overflow-y: visible;
-        height: 75vh;
+        height: 100%;
     }
 
     .projects_popup{
@@ -255,9 +252,8 @@
     }
 
     #contact-content{
-        background-color: #f5f5f5;
         overflow-y: visible;
-        height: 75vh;
+        height: 100%;
     }
 
     .contact{
