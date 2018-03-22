@@ -163,8 +163,17 @@
 
 
     /*----------------------------------------Profile Page-------------------------------------------------*/
-
+    .background-image-profile-page {   
+        height: 50vh; 
+        overflow:visible;
+    }
     
+    #profile-content{
+        overflow-y: visible;
+        height: 75vh;
+    }
+
+
     #profile-description{
         color: #343333 !important;
         text-align: justify;
@@ -174,6 +183,17 @@
 
 
     /*----------------------------------------Resume Page-------------------------------------------------*/
+
+    .background-image-resume-page {
+        height: 50vh;
+        overflow:visible;
+    }
+
+    #resume-content{
+        overflow-y: visible;
+        height: 75vh;
+    }
+
     .edu_emp_img{
         display: none;
     }
@@ -203,6 +223,18 @@
 
 
     /*----------------------------------------Portfolio Page-------------------------------------------------*/
+
+    
+    .background-image-portfolio-page {
+        height: 50vh;
+        overflow:visible;
+    }
+
+    #portfolio-content{
+        overflow-y: visible;
+        height: 75vh;
+    }
+
     .projects_popup{
         width: 90%;
         height: 70%;
@@ -212,6 +244,18 @@
 
 
     /*----------------------------------------Contact Page-------------------------------------------------*/
+
+      
+    .background-image-contact-page {
+        height: 50vh;
+        overflow:visible;
+    }
+
+    #contact-content{
+        overflow-y: visible;
+        height: 75vh;
+    }
+
     .contact{
         margin-top:10%;
     }
