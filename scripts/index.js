@@ -5,28 +5,28 @@
     });
 
     /*---------------------------- Contact page google maps---------------- */
-    var position = [39.065318, -94.578109];
-    function showGoogleMaps() {
-        var latLng = new google.maps.LatLng(position[0], position[1]);
-        var mapOptions = {
-            zoom: 16, // initialize zoom level - the max value is 21
-            streetViewControl: false, // hide the yellow Street View pegman
-            scaleControl: true, // allow users to zoom the Google Map
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            center: latLng
-        };
-        map = new google.maps.Map(document.getElementById('googlemaps'),
-            mapOptions);
-        // Show the default red marker at the location
-        marker = new google.maps.Marker({
-            position: latLng,
-            map: map,
-            draggable: false,
-            animation: google.maps.Animation.DROP
-        });
+    //var position = [39.065318, -94.578109];
+    //function showGoogleMaps() {
+    //    var latLng = new google.maps.LatLng(position[0], position[1]);
+    //    var mapOptions = {
+    //        zoom: 16, // initialize zoom level - the max value is 21
+    //        streetViewControl: false, // hide the yellow Street View pegman
+    //        scaleControl: true, // allow users to zoom the Google Map
+    //        mapTypeId: google.maps.MapTypeId.ROADMAP,
+    //        center: latLng
+    //    };
+    //    map = new google.maps.Map(document.getElementById('googlemaps'),
+    //        mapOptions);
+    //    // Show the default red marker at the location
+    //    marker = new google.maps.Marker({
+    //        position: latLng,
+    //        map: map,
+    //        draggable: false,
+    //        animation: google.maps.Animation.DROP
+    //    });
        
-    }
-    google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+    //}
+    //google.maps.event.addDomListener(window, 'load', showGoogleMaps);
 
  
 /*---------------------------- Portfolio Projects popups---------------- */
@@ -81,30 +81,6 @@ $('.background-image-contact').on('click', function () {
     $(".home").hide("slide", { direction: "left" }, 600);
     $('.contact-page').delay(400).fadeIn(300);
     $('.cancel-btn').delay(400).fadeIn(300);
-    //$('.contact-page').show();
-    /*---------------------------- Contact page google maps---------------- */
-    //var position = [39.065318, -94.578109];
-    //function showGoogleMaps() {
-    //    var latLng = new google.maps.LatLng(position[0], position[1]);
-    //    var mapOptions = {
-    //        zoom: 16, // initialize zoom level - the max value is 21
-    //        streetViewControl: false, // hide the yellow Street View pegman
-    //        scaleControl: true, // allow users to zoom the Google Map
-    //        mapTypeId: google.maps.MapTypeId.ROADMAP,
-    //        center: latLng
-    //    };
-    //    map = new google.maps.Map(document.getElementById('googlemaps'),
-    //        mapOptions);
-    //    // Show the default red marker at the location
-    //    marker = new google.maps.Marker({
-    //        position: latLng,
-    //        map: map,
-    //        draggable: false,
-    //        animation: google.maps.Animation.DROP
-    //    });
-
-    //}
-    //google.maps.event.addDomListener(window, 'load', showGoogleMaps);
 });
 
 /*---------------------------- Cancel button click ----------------------------- */

@@ -7,6 +7,7 @@ body{
     /*font-family:'Times New Roman', Times, serif;*/
     /*font-family:'Open Sans', sans-serif;*/
     font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    min-height: 100%;
 }
 
 .row{
@@ -610,9 +611,10 @@ form .error {
 /*----------------------------------------Footer-------------------------------------------------*/
 
 .footer {
+    position:absolute;
   background-color: #6A8D9D;
   right:0;
-  bottom: 0;
+  
   left:0;
   padding: 0.5rem;
   color: #fff;
